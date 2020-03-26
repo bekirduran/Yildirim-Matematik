@@ -15,6 +15,7 @@
 		96232E2823DDEF030003E76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96232E2623DDEF030003E76C /* LaunchScreen.storyboard */; };
 		96232E3323DDEF030003E76C /* Yildirim_MatematikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96232E3223DDEF030003E76C /* Yildirim_MatematikTests.swift */; };
 		96232E3E23DDEF030003E76C /* Yildirim_MatematikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96232E3D23DDEF030003E76C /* Yildirim_MatematikUITests.swift */; };
+		96232E4E23DF2D260003E76C /* ViewControllerSeviyeSonuc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96232E4D23DF2D260003E76C /* ViewControllerSeviyeSonuc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		96232E3923DDEF030003E76C /* Yildirim MatematikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yildirim MatematikUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96232E3D23DDEF030003E76C /* Yildirim_MatematikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yildirim_MatematikUITests.swift; sourceTree = "<group>"; };
 		96232E3F23DDEF030003E76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96232E4D23DF2D260003E76C /* ViewControllerSeviyeSonuc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSeviyeSonuc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				96232E1D23DDEEFC0003E76C /* SceneDelegate.swift */,
 				96232E1F23DDEEFC0003E76C /* ViewController.swift */,
 				96232E2123DDEEFC0003E76C /* Main.storyboard */,
+				96232E4D23DF2D260003E76C /* ViewControllerSeviyeSonuc.swift */,
 				96232E2423DDEF030003E76C /* Assets.xcassets */,
 				96232E2623DDEF030003E76C /* LaunchScreen.storyboard */,
 				96232E2923DDEF030003E76C /* Info.plist */,
@@ -262,6 +265,7 @@
 				96232E2023DDEEFC0003E76C /* ViewController.swift in Sources */,
 				96232E1C23DDEEFC0003E76C /* AppDelegate.swift in Sources */,
 				96232E1E23DDEEFC0003E76C /* SceneDelegate.swift in Sources */,
+				96232E4E23DF2D260003E76C /* ViewControllerSeviyeSonuc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYXFDAT3M2;
 				INFOPLIST_FILE = "Yildirim Matematik/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XYXFDAT3M2;
 				INFOPLIST_FILE = "Yildirim Matematik/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
